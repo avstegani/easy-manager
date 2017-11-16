@@ -4,16 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
-body {
-  padding-top: 54px;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
-
 header.masthead {
   background: url('http://groundwater.uk.com/wp-content/uploads/2016/09/Manitou_Easy-Manager.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
