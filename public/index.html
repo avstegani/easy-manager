@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>One Page Wonder - Start Bootstrap Template</title>
+  <title>Easy Manager</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
   </header>
 
   <section>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -53,7 +53,7 @@
             <div class="row align-items-center">
               <div class="col-md-6 order-2">
                 <div class="p-5">
-                  <img class="img-fluid rounded-circle" src="images/Tarefas.jpg" alt="">
+                  <img class="img-fluid rounded-circle" src="images/Tarefas.png" alt="">
                 </div>
               </div>
               <div class="col-md-6 order-1">
@@ -68,12 +68,12 @@
         <div class="carousel-item">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-md-6 order-2">
+              <div class="col-md-6 order-1">
                 <div class="p-5">
                   <img class="img-fluid rounded-circle" src="images/sample.png" alt="">
                 </div>
               </div>
-              <div class="col-md-6 order-1">
+              <div class="col-md-6 order-2">
                 <div class="p-5">
                   <h2 class="display-4">Multiplataforma</h2>
                   <p>Disponível para Desktop, Android e iOS</p>
@@ -85,12 +85,12 @@
         <div class="carousel-item">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-md-6">
+              <div class="col-md-6 order-2">
                 <div class="p-5">
                   <img class="img-fluid rounded-circle" src="images/tempo.png" alt="">
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 order-1">
                 <div class="p-5">
                   <h2 class="display-4">Tenha mais tempo livre</h2>
                   <p>Não se estresse! Ganhe tempo para poder inovar</p>
@@ -102,12 +102,12 @@
         <div class="carousel-item">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-md-6 order-2">
+              <div class="col-md-6 order-1">
                 <div class="p-5">
                   <img class="img-fluid rounded-circle" src="images/Visualização.png" alt="">
                 </div>
               </div>
-              <div class="col-md-6 order-1">
+              <div class="col-md-6 order-2">
                 <div class="p-5">
                   <h2 class="display-4">Visualização simples e rápida</h2>
                   <p>Painel de controle com todas as informações que você precisa</p>
@@ -133,14 +133,12 @@
       <div class="row align-items-center">
         <div class="col-md-6 order-2">
           <div class="p-5">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                <small id="emailHelp" class="form-text text-muted">Nós não vamos divulgar seu email para ninguém ;)</small>
-              </div>
-              <button type="submit" class="btn btn-primary" onClick="gtag('event', 'click');">Enviar!</button>
-            </form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+              <small id="emailHelp" class="form-text text-muted">Nós não vamos divulgar seu email para ninguém ;)</small>
+            </div>
+            <button type="submit" class="btn btn-primary" onClick="gtag('event', 'click');alert('Cadastro efetuado com sucesso!')">Enviar!</button>
           </div>
         </div>
         <div class="col-md-6 order-1">
