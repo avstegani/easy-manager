@@ -1,5 +1,5 @@
 {
-  "src_folders" : ["public/tests/functional/scripts"],
+  "src_folders" : ["easy-manager/public/tests/functional/scripts"],
   "output_folder" : "reports",
   "selenium" : {
     "start_process" : false,
