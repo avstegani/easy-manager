@@ -1,1 +1,2 @@
-blz
+blz local:wq!
+
